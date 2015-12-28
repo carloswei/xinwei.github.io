@@ -23,9 +23,9 @@ section{
     margin-top:20px;
 }
 
-button{
+.btn_p{
     position: relative;
-    left:36%;
+    left:30%;
     margin-bottom:10px;
 }
 
@@ -56,32 +56,32 @@ div[data-filter="BC"]{
 
 
 
-button:focus[data-filter]{
+a:focus[data-filter]{
     opacity:.8;
     outline:none;
 }
 
-button[data-filter="Web"]:focus ~ div:not([data-filter="Web"]){
+a[data-filter="Web"]:focus ~ div:not([data-filter="Web"]){
     display: none;
     visibility: hidden;
 }
 
-button[data-filter="ML"]:focus ~ div:not([data-filter="ML"]){
+a[data-filter="ML"]:focus ~ div:not([data-filter="ML"]){
     display: none;
     visibility: hidden;
 }
 
-button[data-filter="DB"]:focus ~ div:not([data-filter="DB"]){
+a[data-filter="DB"]:focus ~ div:not([data-filter="DB"]){
     display: none;
     visibility: hidden;
 }
 
-button[data-filter="TC"]:focus ~ div:not([data-filter="TC"]){
+a[data-filter="TC"]:focus ~ div:not([data-filter="TC"]){
     display: none;
     visibility: hidden;
 }
 
-button[data-filter="BC"]:focus ~ div:not([data-filter="BC"]){
+a[data-filter="BC"]:focus ~ div:not([data-filter="BC"]){
     display: none;
     visibility: hidden;
 }
